@@ -1,0 +1,84 @@
+#notebook_list {
+    border-width: 0;
+}
+#notebook_list .list_header {
+    font-size: 13px;
+    line-height: 20px;
+    color: #586069;
+    background-color: #f1f8ff;
+    border: 1px solid #c8e1ff;
+    border-radius: 3px 3px 0 0;
+}
+/* tree selector */
+#button-select-all {
+    min-width: 0;
+    padding: 0;
+    border-width: 0;
+    background-color: transparent;
+    line-height: 0;
+    padding-top: 3px;
+    margin-right: 8px;
+    margin-left: 7px;
+    box-shadow: none !important;
+}
+#tree-selector-btn {
+    background-color: transparent;
+    margin-right: 16px;
+}
+#counter-select-all {
+    font-size: 0;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-image: url("icons/checkbox-checked.png");
+}
+#select-all:checked + #counter-select-all {
+    background-image: url("icons/checkbox-checked-active.png");
+}
+#notebook_list .list_header .sort-action {
+    border-width: 0;
+    margin-top: 5px;
+    background-color: transparent;
+    color: #586069;
+    box-shadow: none !important;
+}
+#notebook_list .list_header .sort-action i {
+    vertical-align: middle;
+}
+#notebook_list .breadcrumb li {
+    vertical-align: middle;
+}
+
+
+#notebook_list .list_item {
+    border-style: solid;
+    border-width: 0 1px 1px;
+    border-color: transparent #dfe2e5 #eaecef;
+}
+#notebook_list .list_item:last-child {
+    border-radius: 0 0 3px 3px;
+    border-color: transparent #dfe2e5 #dfe2e5;
+}
+#notebook_list .list_item:hover {
+    background-color: #f6f8fa;
+}
+#notebook_list .list_item > div {
+    padding: 5px 7px;
+}
+#notebook_list .list_item .item_modified {
+    color: #6a737d;
+}
+#notebook_list .list_item .running-indicator {
+    display: none;
+}
+#notebook_list .row {}
+#notebook_list .list_item input[type=checkbox],
+#notebook_list .list_header #select-all {
+    display: none;
+}
+#notebook_list .list_item input[type=checkbox]:checked + .item_icon {
+    background-image: url("icons/checkbox-checked-active.png") !important;
+}
+

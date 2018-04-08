@@ -1,0 +1,42 @@
+body.notebook_app div.output_area pre {
+    color: #24292e;#24292e
+}
+
+body.notebook_app div.inner_cell .rendered_html h1 {
+    font-size: 32px;
+}
+body.notebook_app div.inner_cell .rendered_html h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaecef;
+}
+body.notebook_app div.inner_cell .rendered_html h3 {
+
+}
+body.notebook_app div.inner_cell .rendered_html h4 {
+
+}
+body.notebook_app div.inner_cell .rendered_html h5 {
+
+}
+body.notebook_app div.inner_cell .rendered_html h6 {
+
+}
+body.notebook_app div.inner_cell .rendered_html p {
+
+}
+body.notebook_app div.inner_cell .rendered_html code {
+
+}
+body.notebook_app div.inner_cell .rendered_html .MathJax_Preview {
+
+}
+body.notebook_app div.inner_cell .rendered_html ul {
+
+}
+body.notebook_app div.inner_cell .rendered_html li {
+
+}
+body.notebook_app div.inner_cell .rendered_html pre code {
+
+}

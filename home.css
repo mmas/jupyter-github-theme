@@ -1,0 +1,70 @@
+body:not(.notebook_app) > #header {
+    display: none !important;
+}
+body:not(.notebook_app) #site::before {
+    content: "";
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 64px;
+    background-color: #fafbfc;
+    border-bottom: solid 1px #e1e4e8;
+}
+body:not(.notebook_app) #ipython-main-app {
+    margin-top: -57px;
+}
+body:not(.notebook_app) #ipython-main-app .nav-tabs {
+    border-bottom-width: 0;
+}
+body:not(.notebook_app) #ipython-main-app .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px 1px 1px;
+    border-radius: 3px 3px 0 0;
+    padding: 7px 16px 6px;
+    color: #586069;
+    background-color: transparent;
+}
+body:not(.notebook_app) #ipython-main-app .nav-tabs > li > a:hover {
+    color: #24292e;
+    background-color: transparent;
+}
+body:not(.notebook_app) #ipython-main-app .nav-tabs > li.active > a {
+    border-color: #e36209 #e1e4e8 transparent #e1e4e8;
+    color: #24292e;
+    background-color: white;
+}
+
+body:not(.notebook_app) .tab-content > .tab-pane {
+    padding: 16px 0;
+}
+
+#notebook_toolbar {}
+
+#notebook_toolbar .dynamic-buttons {
+    padding-top: 0;
+}
+#notebook_toolbar .tree-buttons #new-buttons .btn {
+    color: white;
+    background-color: #2dc350;
+}
+#notebook_toolbar .tree-buttons .btn-upload {
+    padding: 4px 10px 0;
+    height: 28px;
+}
+.list_toolbar #refresh_notebook_list,
+.list_toolbar #refresh_running_list,
+.list_toolbar .delete-button {
+    padding: 5px;
+    width: 28px;
+    height: 28px;
+}
+.list_toolbar .fa-refresh {
+    background-image: url("icons/restart.png");
+}
+.list_toolbar .fa-trash {
+    background-image: url("icons/trash.png");
+}

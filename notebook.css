@@ -1,0 +1,214 @@
+body.notebook_app {
+    background-color: white;
+}
+
+
+body.notebook_app > #header {
+    box-shadow: none;
+    background-color: #fafbfc;
+    border-bottom: solid 1px #e1e4e8;
+}
+body.notebook_app > #header #ipython_notebook,
+body.notebook_app > #header #kernel_logo_widget,
+body.notebook_app > #header .checkpoint_status,
+body.notebook_app > #header .autosave_status,
+body.notebook_app > #header #modal_indicator {
+    display: none !important;
+}
+body.notebook_app > #header .header-bar {
+    visibility: hidden;
+}
+body.notebook_app > #header #header-container {
+    height: auto;
+    padding: 0;
+}
+body.notebook_app > #header #save_widget {
+    margin: 0;
+    padding: 8px 8px 0;
+    height: 32px;
+}
+body.notebook_app > #header #notebook_name {
+    margin: 0;
+    color: #0366d6;
+    font-weight: 600;
+    font-size: 18px;
+    height: auto;
+    background-color: transparent !important;
+}
+body.notebook_app > #header #kernel_indicator {
+    border-left-width: 0;
+    color: #586069;
+    margin: 0 8px;
+}
+/* notifications */
+body.notebook_app .notification_widget {
+    padding: 1px 6px 2px;
+    border-width: 0;
+    margin: 0 0 0 5px;
+    background-color: #ebecef;
+    color: #24292e;
+}
+
+/* menus */
+body.notebook_app .navbar-default {
+    border: none;
+    background-color: transparent;
+}
+body.notebook_app .nav > li > a {
+    padding: 5px 7px;
+}
+/* icons toolbar */
+body.notebook_app #maintoolbar {
+    padding: 0;
+    margin: 0;
+}
+body.notebook_app #maintoolbar-container {
+    padding: 0 8px 0 5px;
+    margin: 0 0 5px -8px;
+}
+body.notebook_app #maintoolbar-container .btn-group {
+    margin: 0;
+    padding: 0;
+}
+body.notebook_app #maintoolbar-container .btn {
+    margin: 0 0 0 5px;
+    padding: 5px;
+    width: 28px;
+    height: 28px;
+    border-radius: 0.25em;
+    border-width: 0;
+    background-color: transparent;
+}
+body.notebook_app #maintoolbar-container .btn:hover {
+    background-color: #eff3f6;
+}
+body.notebook_app #maintoolbar-container .toolbar-btn-label {
+    display: none;
+}
+body.notebook_app #maintoolbar-container #cell_type {
+    appearance: none;
+    -moz-appearance: none;
+    border-width: 0;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+    margin: 0 0 0 5px;
+    height: 28  px;
+    padding-bottom: 3px;
+    background-color: transparent;
+    color: #586069;
+}
+body.notebook_app #maintoolbar-container #cell_type:hover,
+body.notebook_app #maintoolbar-container #cell_type:active {
+    background-color: #eff3f6;
+    color: #24292e;
+}
+body.notebook_app #maintoolbar-container .fa-save {
+    background-image: url("icons/save.png");
+}
+body.notebook_app #maintoolbar-container .fa-plus {
+    background-image: url("icons/plus.png");
+}
+body.notebook_app #maintoolbar-container .fa-cut {
+    background-image: url("icons/cut.png");
+}
+body.notebook_app #maintoolbar-container .fa-copy {
+    background-image: url("icons/copy.png");
+}
+body.notebook_app #maintoolbar-container .fa-paste {
+    background-image: url("icons/paste.png");
+}
+body.notebook_app #maintoolbar-container .fa-arrow-up {
+    background-image: url("icons/up.png");
+}
+body.notebook_app #maintoolbar-container .fa-arrow-down {
+    background-image: url("icons/down.png");
+}
+body.notebook_app #maintoolbar-container .fa-step-forward {
+    background-image: url("icons/play.png");
+}
+body.notebook_app #maintoolbar-container .fa-stop {
+    background-image: url("icons/stop.png");
+}
+body.notebook_app #maintoolbar-container .fa-repeat {
+    background-image: url("icons/restart.png");
+}
+body.notebook_app #maintoolbar-container .fa-forward {
+    background-image: url("icons/next.png");
+}
+body.notebook_app #maintoolbar-container .fa-keyboard-o {
+    background-image: url("icons/keyboard.png");
+}
+
+
+body.notebook_app #notebook-container {
+    box-shadow: none;
+    padding: 16px 0;
+}
+body.notebook_app .prompt {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    border-width: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    min-width: 100px;
+}
+
+body.notebook_app div.input_area {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    background-color: #f6f8fa;
+    padding: 7px;
+}
+body.notebook_app div.cell div.inner_cell .rendered_html {
+    border: solid 1px transparent;
+}
+body.notebook_app.command_mode div.cell.selected div.inner_cell .rendered_html {
+    border-color: #cfcfcf;
+}
+body.notebook_app div.cell {
+    border-width: 0 !important;
+}
+body.notebook_app div.cell.selected::before,
+body.notebook_app div.cell.selected.jupyter-soft-selected::before {
+    display: none !important;
+}
+body.notebook_app div.cell.selected div.input_area {
+    border-color: #cfcfcf;
+}
+body.notebook_app.edit_mode div.cell.selected div.input_area {
+    border-color: #2dc350;
+}
+body.notebook_app div.input_prompt {
+    padding-top: 13px;
+    color: #0366d6;
+}
+
+body.notebook_app div#notebook {
+    font-size: 16px;
+}
+body.notebook_app div#notebook code,
+body.notebook_app div#notebook kbd,
+body.notebook_app div#notebook pre,
+body.notebook_app div#notebook samp {
+    font-size: 14px;
+}
+body.notebook_app div.output_area pre {
+    color: #24292e;
+    line-height: 1.5;
+}
+body.notebook_app .output_text {
+    padding: 14px;
+}
+body.notebook_app .output_scroll {
+    border-radius: 0px;
+    box-shadow: none;
+    border-width: 1px 0;
+    border-style: dashed;
+    border-color: #b6b9bd;
+}
+body.notebook_app div.output_prompt {
+    padding-top: 17px;
+    color: #586069;
+}

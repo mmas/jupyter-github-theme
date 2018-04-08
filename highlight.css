@@ -1,0 +1,40 @@
+.CodeMirror {
+    font-family: "Liberation Mono", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.cm-s-ipython span {
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.cm-s-ipython span.cm-keyword {
+    color: #d73a49;
+}
+.cm-s-ipython span.cm-comment {
+    color: #6a737d;
+}
+.cm-s-ipython span.cm-string {
+    color: #032f62;
+}
+.cm-s-ipython span.cm-operator {
+    color: #d73a49;
+}
+.cm-s-ipython span.cm-variable {
+    color: #24292e;
+}
+.cm-s-ipython span.cm-variable-2 {
+    color: #005cc5;
+}
+.cm-s-ipython span.cm-builtin {
+    color: #005cc5;
+    /*color: #e36209;*/
+}
+.cm-s-ipython span.cm-number {
+    color: #005cc5;
+}
+.cm-s-ipython span.cm-property {
+    color: #005cc5;
+}
+.cm-s-ipython span.cm-def {
+    color: #6f42c1;
+}

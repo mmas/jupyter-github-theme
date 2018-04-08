@@ -1,0 +1,32 @@
+.item_icon,
+.breadcrumb .fa-folder {
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.item_icon::before,
+.breadcrumb .fa-folder::before {
+    display: none;
+}
+
+.breadcrumb .fa-folder {
+    background-image: url("icons/home-active.png");
+}
+.folder_icon {
+    background-image: url("icons/folder.png");
+}
+.notebook_icon {
+    background-image: url("icons/document.png");
+}
+.running_notebook_icon {
+    background-image: url("icons/filled-circle-active.png");
+}
+.file_icon {
+    background-image: url("icons/file.png");
+}
+.fa-arrow-down {
+    background-image: url("icons/sorting.png");
+}

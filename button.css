@@ -1,0 +1,74 @@
+.modal-footer .btn,
+.list_toolbar .btn,
+#tree-selector-btn {
+    appearance: none;
+    -moz-appearance: none;
+    padding: 3px 10px;
+    border: solid 1px rgba(0,0,0,0.1) !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    line-height: 20px;
+    color: #24292e;
+    background-color: #eff3f6;
+    border-radius: 0.25em;
+    font-weight: 600;
+}
+.modal-footer .btn:hover,
+.list_toolbar .btn:hover,
+#tree-selector-btn:hover {
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.1) !important;
+}
+
+.btn .fa,
+.icon-fixed-width {
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    display: inline-block;
+}
+.btn:hover .fa {
+    opacity: 1
+}
+.btn .fa::before,
+.icon-fixed-width::before {
+    display: none;
+}
+
+.btn.info,
+.btn-info {
+    background-color: #0366d6;
+    color: white;
+}
+.btn.info:hover,
+.btn-info:hover {
+    background-color: #0669d9;
+}
+.btn.warning,
+.btn-warning {
+    background-color: #e36209;
+    color: white;
+}
+.btn.warning:hover,
+.btn-warning:hover {
+    background-color: #e66512;
+}
+.btn.danger,
+.btn-danger {
+    background-color: #e44231;
+    color: white;
+}
+.btn.danger:hover,
+.btn-danger:hover {
+    background-color: #e74534;
+}
+.btn.success,
+.btn-success {
+    background-color: #2dc350;
+    color: white;
+}
+.btn.success:hover,
+.btn-success:hover {
+    background-color: #30c653;
+}

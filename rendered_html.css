@@ -1,0 +1,63 @@
+body.notebook_app div.inner_cell .rendered_html {
+    color: #24292e;
+}
+body.notebook_app div.inner_cell .rendered_html h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 16px;
+}
+body.notebook_app div.inner_cell .rendered_html h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaecef;
+    margin: 24px 0 16px;
+}
+body.notebook_app div.inner_cell .rendered_html h3 {
+    font-size: 1.25em;
+    margin: 24px 0 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+body.notebook_app div.inner_cell .rendered_html h4 {
+    font-size: 1em;
+    margin: 24px 0 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+body.notebook_app div.inner_cell .rendered_html p {
+    margin: 0 0 16px;
+}
+body.notebook_app .rendered_html pre {
+    padding: 16px;
+    margin: 0 0 16px;
+}
+body.notebook_app .rendered_html pre code {
+    background-color: transparent;
+}
+body.notebook_app .rendered_html code,
+body.notebook_app .rendered_html pre {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    color: #24292e;
+    background-color: #f6f8fa;
+}
+body.notebook_app div.inner_cell .rendered_html a {
+    color: #0366d6;
+    text-decoration: none;
+}
+body.notebook_app div.inner_cell .rendered_html a:hover {
+    text-decoration: underline;
+}
+body.notebook_app div.inner_cell .rendered_html .MathJax,
+body.notebook_app div.inner_cell .rendered_html .MathJax_Display {
+    font-size: 12px;
+}
+body.notebook_app div.inner_cell .rendered_html ul {
+    margin: 0 0 16px;
+}
+body.notebook_app div.inner_cell .rendered_html li {
+    line-height: 1.4em;
+}
+body.notebook_app div.inner_cell .rendered_html pre code {
+
+}
