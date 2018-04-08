@@ -34,6 +34,7 @@ body.notebook_app > #header #notebook_name {
     font-size: 18px;
     height: auto;
     background-color: transparent !important;
+    line-height: 1.1;
 }
 body.notebook_app > #header #kernel_indicator {
     border-left-width: 0;
