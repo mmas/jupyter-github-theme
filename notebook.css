@@ -202,6 +202,10 @@ body.notebook_app div.output_area pre {
     color: #24292e;
     line-height: 1.5;
 }
+body.notebook_app div.output_subarea img {
+    margin: 0 auto;
+    display: block;
+}
 body.notebook_app .output_text {
     padding: 14px;
 }
