@@ -1,5 +1,6 @@
 body.notebook_app div.output_area pre {
-    color: #24292e;#24292e
+    color: #24292e;
+    font-family: "Roboto Mono", monospace;
 }
 
 body.notebook_app div.inner_cell .rendered_html h1 {
