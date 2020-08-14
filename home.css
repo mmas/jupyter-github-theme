@@ -1,6 +1,3 @@
-body:not(.notebook_app) > #header {
-    display: none !important;
-}
 body:not(.notebook_app) #site::before {
     content: "";
     top: 0;
